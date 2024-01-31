@@ -20,3 +20,77 @@
    20  git commit -m "version2"
    21  git log --all --graph
    22  history >> command.txt
+1/31/2024--
+    1  git status
+    2  cd IdeaProjects/web-driver-testing/
+    3  git status
+    4  git branch
+    5  git status
+    6  cd IdeaProjects/web-driver-testing/
+    7  git status
+    8  git log --all --graph
+    9  git branch testing2
+   10  ls
+   11  cat hello.txt 
+   12  vim hello.txt 
+   13  git add .
+   14  git commit -m "version1"
+   15  git log --all --graph
+   16  git checkout testing2 
+   17  ls
+   18  cat hello.txt 
+   19  vim hello.txt 
+   20  cat hello.txt 
+   21  get add .
+   22  git add .
+   23  git commit -m "testing2 version1"
+   24  git log --all --graph
+   25  git checkout main
+   26  git log --all --graph
+   27  git merge testing2 -m "merge testing2 to main"
+   28  cat hello.txt 
+   29  vim hello.txt 
+   30  cat hello.txt 
+   31  git merge testing2 -m "merge testing2 to main"
+   32  cat hello.txt 
+   33  git merge testing2 -m "merge resolved"
+   34  git add .
+   35  git commit -m "resolving hello.txt"
+   36  git merge testing2 -m "merge resolved"
+   37  git log --all --graph
+   38  ls
+   39  vim new-feature
+   40  cat new-feature 
+   41  git branch new-feature
+   42  git log --all --graph
+   43  ls
+   44  cd src/
+   45  ls
+   46  cd 
+   47  cd Templates/
+   48  cd ../IdeaProjects/web-driver-testing/src/test/java/pages/
+   49  ls
+   50  cd ../support/
+   51  ls
+   52  cd ../../..
+   53  cd ..
+   54  ls
+   55  cat new-feature 
+   56  git checkout new-feature 
+   57  ls
+   58  cat new-feature 
+   59  git add .
+   60  git commit -m "new feature"
+   61  git log --all --graph
+   62  git remote add origin https://github.com/hanjxu/web-driver-testing.git
+   63  git checkout main
+   64  git log --all --graph
+   65  git push origin main
+   66  ls
+   67  git checkout new-feature 
+   68  ls
+   69  git push origin new-feature 
+   70  echo 1/31/2024-- >> command.txt 
+   71  cat command.txt 
+   72  history
+   73  history >> command.txt 
