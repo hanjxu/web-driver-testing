@@ -1,0 +1,22 @@
+    1  pwd
+    2  cd IdeaProjects/web-driver-testing/
+    3  git init
+    4  vim hello.txt
+    5  ls
+    6  git add .
+    7  git commit -m "version1"
+    8  git config --global user.name "hanjxu"
+    9  git commit -m "version1"
+   10  git config --global user.email "jrcarpenter925@gmail.com"
+   11  git config --global user.name "hanjxu"
+   12  git commit -m "version1"
+   13  git log --all --graph
+   14  vim hello.txt 
+   15  cat hello.txt 
+   16  echo v2 >> hello.txt 
+   17  cat hello.txt 
+   18  git commit -m "version2"
+   19  git add .
+   20  git commit -m "version2"
+   21  git log --all --graph
+   22  history >> command.txt
